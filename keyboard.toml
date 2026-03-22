@@ -2,8 +2,8 @@
 [keyboard]
 name = "RMK Keyboard"
 product_name = "RMK Keyboard"
-vendor_id = 0x4c4b
-product_id = 0x4643
+vendor_id = 0x04D9
+product_id = 0x0110
 manufacturer = "RMK"
 chip = "rp2040"
 
