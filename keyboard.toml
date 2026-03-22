@@ -2,8 +2,8 @@
 [keyboard]
 name = "RMK Keyboard"
 product_name = "RMK Keyboard"
-vendor_id = 0x05AC
-product_id = 0x0220
+vendor_id = 0x1C4F  # 模拟朗格
+product_id = 0x0084
 manufacturer = "RMK"
 chip = "rp2040"
 
@@ -20,13 +20,19 @@ direct_pin_low_active = true
 [layout]
 rows = 4
 cols = 5
-layers = 2
+layers = 3
 keymap = [
     [
         ["A", "B", "C", "D", "E"],
         ["F", "G", "H", "I", "J"],
         ["K", "L", "M", "N", "O"],
         ["P", "Q", "R", "S", "T"]
+    ],
+    [
+        ["U", "V", "W", "X", "Y"],
+        ["Z", "u", "u", "u", "u"],
+        ["u", "u", "u", "u", "u"],
+        ["u", "u", "u", "u", "u"]
     ],
     [
         ["U", "V", "W", "X", "Y"],
